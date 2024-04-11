@@ -21,8 +21,3 @@ Este projeto foca no gerenciamento de informações de funcionários e atribuiç
 - `id_projeto` (INT, Chave Primária): ID do projeto
 - `nome_projeto` (VARCHAR(100)): Nome do projeto
 - `id_gerente` (INT, Chave Estrangeira referenciando `funcionarios.id`): ID do funcionário gerente
-
-## Como Utilizar
-1. Clone o repositório para sua máquina local.
-2. Execute os scripts SQL fornecidos em sua ferramenta de gerenciamento de banco de dados SQLite.
-3. Utilize as consultas SQL fornecidas para interagir com as tabelas `funcionarios` e `projetos` conforme necessário.
